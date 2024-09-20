@@ -1,6 +1,10 @@
 /** IMPORTS **/
+
+//Main scss da layoutga taluqli bolgab styllar bilan ishlaymiz va boshqa componentdagi style larni chaqirib qoyamiz//
+
 @import "/scss/variables.scss";
 @import "/scss/pc/homepage/homepage.scss";
+
 #pc-wrap {
   #top {
     .navbar {
@@ -18,6 +22,7 @@
         &.transparent {
           background-color: #181a209e;
         }
+
         .container {
           flex-direction: row;
           align-items: center;
@@ -34,6 +39,7 @@
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+
             div {
               position: relative;
               color: #eeeeeeed;
@@ -324,6 +330,39 @@
       }
     }
   }
+  .header-basic {
+    position: relative;
+    width: 100%;
+    height: 557px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: black;
+    &.auth {
+      height: 300px;
+    }
+    .container {
+      margin-top: 175px;
+      strong {
+        color: #fff;
+        font-family: $font;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.96px;
+        text-transform: capitalize;
+      }
+      span {
+        color: #fff;
+        font-family: $font;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+      }
+    }
+  }
   #footer {
     position: relative;
     padding: 60px 0px 18px 0px;
@@ -373,6 +412,7 @@
             .media-box {
               margin-top: 12px;
               color: #929495;
+
               svg {
                 font-size: 32px;
                 margin-right: 22px;
