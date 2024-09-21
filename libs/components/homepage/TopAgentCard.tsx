@@ -11,7 +11,7 @@ const TopAgentCard = () => {
         }}
       ></Box>
       <Typography className="agent-name">
-        <strong>Alice</strong>
+        <strong>RACHEL</strong>
       </Typography>
       <Typography className="agent-details">Agent Details</Typography>
     </Stack>
